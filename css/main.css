@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.bg-light{
+    background-color:#f1d3d3;
+}
+.jumbotron{
+    padding:1rem;
+    border-radius: 0;
+}
+.jumbotron p{
+    font-family: "Helvetica Neue",Helvetica,Arial;
+    color:red;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.item{
+    margin-bottom: 10%;
+}
+.item p{
+    margin-top: 2%;
+}
+span.post-author{
+    color:#6e6e6e;
+display:inline;
+font-size:0.8rem;
+line-height:1.1rem;
+padding:0 1% 0 0;
+text-align:left;
+}
+span.post-cat{
+    color:#6e6e6e;
+    display:inline;
+    font-size:0.8rem;
+    line-height:1.1rem;
+    padding:0 1% 0 0;
+    text-align:left;
+}
+.item p{
+    color:#212529;
+font-family:Arial;
+line-height:1.2rem;
+margin-top:2%;
+text-align:-webkit-center;
+}
+.new-post li{
+    list-style-type:none;
+    margin-bottom: 1.2rem;
+}
+ul.new-post{
+    padding: 0;
+    margin: 0;
+}
+.newpapper{
+    display:flex;
+}
+.newpapper a{
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+    font-size: 0.8rem;
+    margin-left: 1.2rem;
+}
+
+form label{
+    display: block;
+}
+form{
+    margin-bottom: 1.1rem;
+}
+h3.block-title{
+  background-color:silver;
+  margin-bottom: 3%;
+  padding:1% 2%;
+}
+#footer{
+    background-color: greenyellow;
+}
+#footer h3{
+    color: rgb(61, 6, 6);
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+#footer p{
+    font-weight: bold;
+}
+#footer ul li{
+    font-weight: bold;
+}
